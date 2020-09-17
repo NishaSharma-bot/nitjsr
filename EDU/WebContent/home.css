@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	height:auto;
+	width:100%;
+	/*background-color:#FC0;*/
+	}
+.wrapper{
+	width:100%;
+	margin: 0 ;
+	/*background-color:#F90;*/
+	/*background-image:url(../images/h12.jpg);*/
+	}
+.slider{
+	padding-top:10px;
+	height:100%;
+	width:50%;
+	/*background-color:#f1f1f1;*/
+	position:fixed;
+	z-index: 1;
+	overflow-x: hidden;
+	}
+.mySlides{
+	padding-left:7px;
+	margin-top:15px;
+	width:100%;
+	height:380px;
+	transition:2s;
+	border-radius:25px;
+	}
+.login{
+	height:440px;
+	padding-top:10px;
+	z-index:1;
+	overflow-x:hidden;
+	position:relative;
+	width:50%;
+	float:right;
+	margin-top:0;
+	margin-left:50%;
+	background-color:#FFF;
+	}
+.box{
+	background-color:#f1f1f1;
+	height:100%;
+	width:400px;
+	padding-left:10px;
+	margin-left:20%;
+	background-position:center;
+	border-radius:12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+.img{
+	height:100px;
+	width:100px;
+	position:relative;
+	margin-left:140px;
+	padding-top:20px;
+	}
+.box h3{
+	margin-left:15px;
+	font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	color:#E4791B;
+	width:90px;
+	height:20px;
+	}
+.rbtn{
+	position:inherit;
+	float:inherit;
+	margin-top:10px;
+	margin-left:60px;
+	background-color: #eee;
+  	border-radius:50%;
+	}
+
+.box input[type="text"],.box input[type="password"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:15px auto;
+	text-align:center;
+	border:2px solid #000 ;
+	padding:14px 10px;
+	width:250px;
+	outline:none;
+	border-radius:15px;
+	transition:0.25s;
+	border-color:#f1f1f1;
+	border-top-color:#f1f1f1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+	}
+.box input[type="submit"]{
+	height:40px;
+	width:200px;
+	border-radius:12px;
+	color:#ffffff;
+	background-color:#E4791B;
+	font-size:15px;
+	cursor:pointer;
+	font-family:sofia;
+	border:0;
+	margin-top:5px;
+	margin-left:90px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+}
+.box input[type="submit"]:hover{
+	background-color:#FF8000;
+}
+.box a{
+	margin-left:25%;
+	color:#E4791B;
+	top:40px;
+	position:relative;
+	height::30px;
+	}

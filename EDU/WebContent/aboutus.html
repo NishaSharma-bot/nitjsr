@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="about.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+<div class="head">
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">*</a>
+  <a href="#"><img src="images/57-579617_facebook-logo-circle-black-transparent-social-media-icons.png"></a>
+  <a href="#"><img src="images/linkedin-512.png" ></a>
+  <a href="#"><img src="images/instagram-png-instagram-icon-1600.png"></a>
+
+</div>
+	<button class="openbtn" onclick="openNav()">Contact</button>  
+	<ul>
+    	<li><a href="demohome.html"  class="logbtn">Log out</a>
+  		<li><a href="aboutus.html">About</a></li>
+  		<li><a  href="demohome.html">Home</a></li>
+	</ul>
+</div>
+<div class="split left">
+ 		 <div class="centered">
+    		<img src="images/20191117162440_IMG_3298.JPG"  alt="nisha">
+            <div class="name">Nisha Sharma</div>
+  		</div>
+	</div>
+	<div class="split right">
+  		<div class="centered">
+    		<img src="images/20191117162515_IMG_3300.JPG"  alt="nitu" >
+            <div class="name">Nitu Nivedita</div>
+  		</div>
+	</div> 
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+<script>
+	var el = document.getElementsByClassName('logbtn');
+	var confirmThis = function (e) { 
+                if (!confirm('Are You Sure ?')) e.preventDefault(); 
+            }; 
+              
+            for (var i = 0, l = el.length; i < l; i++) { 
+                el[i].addEventListener('click', confirmThis, false); 
+            }  
+</script>
+
+   
+</body>
+</html> 
+

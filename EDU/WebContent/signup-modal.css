@@ -1,0 +1,154 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+.modal{
+	margin-top:50px;
+	margin-left:33%;
+	height:500px;
+	width:450px;
+	
+	}
+.modal h1{
+	/*background:#CCC;*/
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	font-size:28px;
+	margin:0px;
+	color:#E4791B;
+	}
+.content{
+	margin-left:20px;
+	background-color:#f1f1f1;
+	height:100%;
+	width:400px;
+	padding-left:10px;
+	background-position:center;
+	border-radius:12px;
+	box-shadow:10px 10px 8px 10px #FBD1AD; 
+	}
+	.modal p{
+	margin:5px;
+	/*background:#CCC;*/
+	font-family:"Comic Sans MS", cursive;
+	font-size:12px;
+	text-align:center;
+	}
+.content input[type="text"],.content input[type="password"]{
+	border:0;
+	background:none;
+	display:block;
+	margin:15px auto;
+	text-align:center;
+	border:2px solid #000 ;
+	padding:14px 10px;
+	width:250px;
+	height:10px;
+	outline:none;
+	border-radius:15px;
+	transition:0.25s;
+	border-color:#f1f1f1;
+	border-top-color:#f1f1f1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+	}
+	
+	.option
+	{
+	border:0;
+	background:none;
+	display:block;
+	margin:15px auto;
+	text-align:center;
+	border:2px solid #000 ;
+	padding:14px 10px;
+	width:250px;
+	height:10px;
+	outline:none;
+	border-radius:15px;
+	transition:0.25s;
+	border-color:#f1f1f1;
+	border-top-color:#f1f1f1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+	}
+.btn{
+	height:40px;
+	width:70px;
+	border-radius:12px;
+	color:#ffffff;
+	background-color:#E4791B;
+	font-size:15px;
+	cursor:pointer;
+	font-family:sofia;
+	border:0;
+	margin-top:20px;
+	margin-left:120px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+}
+.submit{
+	height:40px;
+	width:70px;
+	border-radius:12px;
+	color:#ffffff;
+	background-color:#E4791B;
+	font-size:15px;
+	cursor:pointer;
+	font-family:sofia;
+	border:0;
+	margin-top:10px;
+	margin-left:10px;
+	position:relative;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+	}
+.content input[type="submit"]:hover{
+	background-color:#FF8000;
+}
+.split {
+	margin-top:125px;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color:black;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color:#E4791B;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+.centered img:hover{
+	opacity:0.5;
+	}
+.centered h3{
+	color:#E4791B;
+	font-size:22px;}
+
+/*.content{
+	height:700px;
+	width:500px;
+	background-color:#3C0;
+	}*/

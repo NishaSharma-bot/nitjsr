@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Eduket</title>
+<link href="header.css" rel="stylesheet" type="text/css">
+<link href="demohome.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	font-family:"Comic Sans MS", cursive;
+	color:#999;}
+</style>
+</head>
+<body onload="response.setHeader("Cache-Control","no-cache",no-store,must-revalidate")>
+	<div class="container">
+    	<div class="wrapper">
+        	<div class="header">
+            	<div class="logo">
+            		<img src="images/401-4019229_books-logo-1489798288-clipart-of-books.png" alt="logo" />
+                    </div><!-- end of logo-->
+            	<h1>EDUKET</h1>
+                <div class="header-right">
+                	<a href="home.html" id="fff" class="logbtn" onclick="return you have been logged out !!!" >Log out</a>
+                    <a href="aboutus.html">About</a>
+    				<a class="active" href="home.html">Home</a>
+    			</div><!--end of header-right-->
+        </div><!--end of header-->
+        <div class="hell"></div>
+        <div class="slider">
+        	<img class="mySlides" src="images/collaboratory-slider.jpg" />	
+        	<img class="mySlides" src="images/41XwYP7cZIL.jpg" />
+            <img class="mySlides" src="images/maxresdefault.jpg"  />
+             <img class="mySlides" src="images/5d1a0e73a01328bc9b594e60_directory.jpg"  />
+        </div><!--end of slider-->
+        <div class="login">
+        	<H1>LOGIN AS</H1>
+            <div class="img1">
+        		<a href="Login2.html"><img src="images/presentation-icon-female.png"></a>
+              </div>
+              <div class="img2">
+        		<a href="Login1.html"><img src="images/learn-icon.png" /></a>
+          </div>
+          </div>
+                </div>
+                </div>
+                <div class="footer">
+                <a>Designed by nitu & nisha</a>
+                </div>
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+<script>
+	var el_up=document.getElementById('fff');
+	var el = document.getElementsByClassName('logbtn');
+	var confirmThis = function (e) { 
+                if (!confirm('you have been logged out !!!')) e.preventDefault(); 
+            }; 
+              
+            for (var i = 0, l = el.length; i < l; i++) { 
+                el[i].addEventListener('click', confirmThis, false); 
+            }  
+</script>
+
+</body>
+</html>
+

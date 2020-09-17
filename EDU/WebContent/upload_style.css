@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+{
+	margin:0;
+	padding:0;
+}
+.container{
+	height:auto;
+	width:100%;
+	/*background-color:#FC0;*/
+	}
+.wrapper{
+	width:100%;
+	margin: 0 ;
+	/*background-color:#F90;*/
+	/*background-image:url(../images/h12.jpg);*/
+	}
+
+.firstrow{
+	
+	position:absolute;
+	background-color:#900;
+	height:50%;
+	width:50%;
+	
+}
+.block1{
+	margin-top:40px;
+	margin-left:5%;
+	padding: 0 10px;
+  float: left;
+  width: 25%;
+}
+/* Clear floats after the columns */
+.firstrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the counter cards */
+.card {
+	height:150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.upload{
+	margin-top:5px;
+	/*margin-left:100px;*/
+	/*background-color:#0F9;*/
+	height:500px;
+}
+.upload input[type="text"]{
+	border:0;
+	margin-top:50px;
+	background:#CCC;
+	display:block;
+	margin:15px auto;
+	text-align:center;
+	border:2px solid #000 ;
+	padding:14px 10px;
+	width:250px;
+	height:10px;
+	outline:none;
+	border-radius:15px;
+	transition:0.25s;
+	border-color:#f1f1f1;
+	border-top-color:#f1f1f1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.17), 0 17px 50px 0 rgba(0,0,0,0.12);
+	}
+.upload input[type="file"]{
+	margin-left:45%;
+	height:40px;
+	position:relative;
+	font-family:"Comic Sans MS", cursive;
+}
+.upload img{
+	height:45px;
+	width:45px;
+	position:absolute;
+	top:50%;
+	left:41%;
+	background-color:white;
+	border-radius:12px;
+	margin-right:0;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	.upload img:hover{
+		background-color:#e4791b;
+	}
+.upload input[type="submit"]{
+	background-color:white;
+	font-family:"Comic Sans MS", cursive;
+	border:none;
+	color:black;
+	width:155px;
+	height:45px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	/*margin-left:550px;*/
+	position:absolute;
+	top:50%;
+	left:45%;
+	border-radius:12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+.upload input[type="submit"]:hover{
+	
+	background-color:#e4791b;
+	color:black;
+}
+.upload	button{
+	margin-top:10px;
+	float:right;
+	background-color:#e4791b;
+	font-family:"Comic Sans MS", cursive;
+	border:none;
+	color:black;
+	width:155px;
+	height:45px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	/*margin-left:550px;*/
+	left:90%;
+	border-radius:12px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.download{
+	position:absolute;
+	margin:0;
+	}
+.download img{
+	
+	margin-top:70%;
+	margin-left:50%;
+	height:40px;
+	width:40px;
+	background-color:#e4791b;
+	border-radius:12px;
+	margin-right:0;
+	box-shadow:2px 2px 2px 2px grey;
+	}
+.download img:hover{
+		background-color:#e4791b;
+	}
